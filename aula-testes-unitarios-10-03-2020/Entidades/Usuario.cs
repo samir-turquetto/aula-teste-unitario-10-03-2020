@@ -16,5 +16,10 @@ namespace aula_testes_unitarios_10_03_2020.Entidades
             Nome = nome;
             Senha = senha;
         }
+
+        public void SetSenha(string senha)
+        {
+            Senha = senha;
+        }
     }
 }
